@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.davidalienyi.socialsecurity.Activities.AddSocial">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:text="Select a security question"
+            />
+
+        <Spinner
+            android:layout_marginTop="20dp"
+            android:id="@+id/pin_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/rectangular_input"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_marginTop="20dp"
+            android:text="Enter Security Answer: "
+            />
+        <EditText
+            android:id="@+id/security_answer"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/rectangular_input"
+            android:inputType="text"
+            android:paddingLeft="10dp"
+
+            />
+
+        <TextView
+            android:id="@+id/pinText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_marginTop="20dp"
+            android:text="Enter a six digit alphanumeric Pin: "
+            />
+        <EditText
+            android:id="@+id/pin"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/rectangular_input"
+            android:inputType="textPassword"
+            android:paddingLeft="10dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:visibility="gone"
+            android:id="@+id/newPinWrapper"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/updatedPinText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:layout_marginTop="20dp"
+                android:text="Enter your previous six digit alphanumeric Pin: "
+                />
+            <EditText
+                android:id="@+id/updatedPin"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/rectangular_input"
+                android:inputType="textPassword"
+                android:paddingLeft="10dp"
+                />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/createPin"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:text="Create Pin"
+            android:textColor="#fff"
+            android:background="@color/colorPrimaryDark"
+            />
+
+    </LinearLayout>
+
+</ScrollView>

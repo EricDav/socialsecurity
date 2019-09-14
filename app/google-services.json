@@ -1,0 +1,40 @@
+{
+    "project_info": {
+      "project_number": "1078342997798",
+      "firebase_url": "https://social-security-1567258129228.firebaseio.com",
+      "project_id": "social-security-1567258129228",
+      "storage_bucket": "social-security-1567258129228.appspot.com"
+    },
+    "client": [
+      {
+        "client_info": {
+          "mobilesdk_app_id": "1:1078342997798:android:1d588a9186879548",
+          "android_client_info": {
+            "package_name": "com.example.davidalienyi.socialsecurity"
+          }
+        },
+        "oauth_client": [
+          {
+            "client_id": "1078342997798-oh6ncfg4dbi1et11hs1sr4f0i1eij7rq.apps.googleusercontent.com",
+            "client_type": 3
+          }
+        ],
+        "api_key": [
+          {
+            "current_key": "AIzaSyCJVbCM9tltrgllVaFu4yy3eTb2ry5VN_g"
+          }
+        ],
+        "services": {
+          "appinvite_service": {
+            "other_platform_oauth_client": [
+              {
+                "client_id": "1078342997798-oh6ncfg4dbi1et11hs1sr4f0i1eij7rq.apps.googleusercontent.com",
+                "client_type": 3
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "configuration_version": "1"
+  }

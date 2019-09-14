@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">social security</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="social_list">
+        <item>Facebook</item>
+        <item>Twitter</item>
+        <item>Snapchat</item>
+        <item>Wechat</item>
+        <item>Slack</item>
+        <item>Skype</item>
+        <item>Youtube</item>
+        <item>Instagram</item>
+    </string-array>
+    <string-array name="security_questions">
+        <item>What is your favourite food?</item>
+        <item>What is the name of your best friend?</item>
+        <item>What is your favourite color?</item>
+        <item>What is the name of your first child?</item>
+        <item>What is your favourite movie?</item>
+        <item>What is the name of your first child?</item>
+    </string-array>
+</resources>
